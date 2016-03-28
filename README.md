@@ -2,6 +2,7 @@
 
 Creates avatar images for [Polymer](https://www.polymer-project.org/1.0/) projects.
 
+This element is currently under construction. Feel free to contact me if you are interested in this.
 
 ## Install
 
