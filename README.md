@@ -1,21 +1,24 @@
-# &lt;avatar-creator&gt;
+# README
 
-Creates avatar images for [Polymer](https://www.polymer-project.org/1.0/) projects.
-
-This element is currently under construction. Feel free to contact me if you are interested in this.
-
-## Install
+Crop an avatar profile from an image
 
 
-## Usage
+## Support
+<!------------------------------------------------------->
+
+Submit an [issue](https://github.com/jamrizzi/readme/issues/new)
 
 
-## [Buy Me Coffee](http://jamrizzi.com/buy-me-coffee)
+## Buy Me Coffee
+<!------------------------------------------------------->
 
-A ridiculous amount of coffee was consumed in the process of building this project. [Add some fuel](//jamrizzi.com/buy-me-coffee) if you'd like to keep me going!
+A ridiculous amount of coffee was consumed in the process of building this project.
+
+[Add some fuel](https://jamrizzi.com/#!/buy-me-coffee) if you'd like to keep me going!
 
 
 ## Contributing
+<!------------------------------------------------------->
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -24,11 +27,21 @@ A ridiculous amount of coffee was consumed in the process of building this proje
 5. Submit a pull request :D
 
 
-## Changelog
-
-Take a peek at the [changelog](CHANGELOG.md)
-
-
 ## License
+<!------------------------------------------------------->
 
-[GNU Public License v3](LICENSE)
+[MIT License](https://github.com/jamrizzi/readme/blob/master/LICENSE)
+
+[Jam Risser](https://jamrizzi.com) &copy; 2017
+
+
+## Credits
+<!------------------------------------------------------->
+
+* [Jam Risser](https://jamrizzi.com) - Author
+
+
+## Changelog
+<!------------------------------------------------------->
+
+No releases yet
