@@ -2,6 +2,8 @@
 
 Crop an avatar profile from an image
 
+Please &#9733; this repo if you found it useful &#9733; &#9733; &#9733;
+
 
 ## Support
 <!------------------------------------------------------->
