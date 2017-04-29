@@ -1,4 +1,4 @@
-# README
+# avatar-creator
 
 Crop an avatar profile from an image
 
