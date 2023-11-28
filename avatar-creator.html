@@ -1,0 +1,88 @@
+<!--
+@license
+Copyright (c) 2016 JamRizzi Technologies. All rights reserved.
+This code may only be used under the GNU General Public License v3.0 style license
+  found at http://www.gnu.org/licenses/gpl-3.0.en.html
+-->
+
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../paper-card/paper-card.html">
+<link rel="import" href="../paper-button/paper-button.html">
+<link rel="import" href="../paper-fab/paper-fab.html">
+
+<!--
+Creates avatar images for Polymer projects.
+
+Example:
+
+    <avatar-creator avatar="{{avatar}}"></avatar-creator>
+
+@demo demo/index.html
+-->
+
+<dom-module id="avatar-creator">
+  <template>
+    <style>
+      #image {
+        position: absolute;
+        background-color: red;
+        z-index: 1;
+        height: 300px;
+        width: 300px;
+      }
+      #mask {
+        background-color: rgba(256, 256, 256, 0);
+        height: 300px;
+        width: 300px;
+        box-shadow: 0px 0px 0px 999px black;
+        border-radius: 100%;
+        position: relative;
+        z-index: 2;
+      }
+      paper-fab {
+        z-index: 3;
+      }
+    </style>
+    
+    <paper-card heading="Avatar Creator">
+      <div class="card-content">
+        <div id="tools">
+          <paper-fab></paper-fab>
+        </div>
+        <div id="window">
+          <div id="image">
+          </div>
+          <div id="mask">
+          </div>
+        </div>
+      </div>
+      <div class="card-actions">
+        <paper-button on-click="_save">Save</paper-button>
+      </div>
+    </paper-card>
+
+  </template>
+
+  <script>
+    Polymer({
+      is: 'avatar-creator',
+      
+        properties: {
+
+        },
+        
+        ready: function() {
+          
+        },
+        
+        /**
+         * Saves avatar
+         * 
+         * @type String
+         */
+        _save: function() {
+          console.log('avatar saved');
+        }
+    });
+  </script>
+</dom-module>
